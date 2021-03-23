@@ -1,0 +1,22 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.blogpost {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.blogpost-1 {
+  flex-grow: 1;
+}
+
+.blogpost-3 {
+  flex-grow: 3;
+}
+
+.blogpost-4 {
+  align-self: center;
+}
